@@ -17,5 +17,4 @@ function borrar() {
  
 // Eventos 
 document.addEventListener("DOMContentLoaded", mostrarNombre);            // al cargar la página 
-document.getElementById("btn-borrar").addEventListener("click", borrar); // al hacer 
-clic 
+document.getElementById("btn-borrar").addEventListener("click", borrar); // al hacer clic 
