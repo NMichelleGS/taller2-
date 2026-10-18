@@ -19,7 +19,7 @@ function guardar() {
     sessionStorage.setItem("ciudad", ciudad);
 
     // Ir a la página 2
-    window.location.href = "index2.html";
+    window.location.href = "pagina2.html";
 }
 // Evento: al hacer clic en el botón, se ejecuta guardar 
 document.getElementById("btn-guardar").addEventListener("click", guardar);
