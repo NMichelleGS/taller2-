@@ -11,11 +11,12 @@ function mostrarNombre() {
 } 
  
 // Función: borra el nombre y vuelve a mostrar el resultado 
-function borrar() { 
-    sessionStorage.removeItem("nombre");   // borra de la bodega 
-    sessionStorage.removeItem("ciudad");   // borra de la bodega 
-    mostrarNombre();                       // actualiza el mensaje 
-} 
+// Función: borrar todos los datos guardados
+function borrar() {
+    sessionStorage.clear();
+    mostrarNombre();
+}             
+
  
 // Eventos 
 document.addEventListener("DOMContentLoaded", mostrarNombre);            // al cargar la página 

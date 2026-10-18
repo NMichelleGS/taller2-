@@ -1,6 +1,25 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    background-color: #430059;
+}
+ .btn {
+    background-color: #00a2cf;
+    color: rgb(110, 0, 183);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.info {
+    padding: 10px;
+    margin: 5px 0;
+    border: 7px solid #510182;
+    border-radius: 5px;
+    color: #410263;
+    background-color: #eebdfe;
+
+}
+
+p {
+    color: #0fa8ce;
 }
